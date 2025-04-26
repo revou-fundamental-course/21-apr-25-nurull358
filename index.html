@@ -10,13 +10,87 @@
 </head>
 <body>
     <!-- header content -->
-   <header></header>
+   <header>
+    <h1>Website Konversi Suhu</h1>
+   </header>
    
    <!-- Main Content -->
-    <main></main>
+    <main>
+        <!-- introduction -->
+        <section>
+            <!-- dummy intro -->
+            <p>Suhu adalah ukuran panas atau dingin suatu benda, yang dapat diukur secara kuantitatif. Suhu tidak sama dengan energi panas, meskipun suhu yang lebih tinggi menunjukkan energi kinetik yang lebih tinggi pada partikel-partikel benda</p>
+        </section>
+
+        <!-- Form Konversi Suhu -->
+        <form>
+            <div>
+                <label for="konversi-input">Celcius (&deg;C):</label>
+            </div>
+
+            <div>
+                <textarea id="koversi-input"></textarea>
+            </div>
+
+            <!-- form action -->
+            <div>
+                <button>Konversi</button>
+                <button>Reverse</button>
+                <button>Reset</button>
+            </div>
+        </form>
+
+        <!-- hasil konversi suhu -->
+        <section>
+            <div>
+                <label for="result-input">Fahrenheit (&deg;F)</label>
+            </div>
+            <div>
+                <textarea id="result-input" readonly></textarea>
+            </div>
+        </section>
+
+        <!-- penjelasan -->
+         <section>
+            <div>
+                <label for="calculate-detail">Cara Kalkulasi:</label>
+            </div>
+            <div>
+                <textarea id="calculate-detail" readonly></textarea>
+            </div>
+         </section>
+
+         <!-- informasi tambahan -->
+          <section>
+            <header>
+            <h1>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+            </header>
+
+            <hr />
+
+            <!-- konten informasi -->
+            <article>
+                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F)</p>
+
+                <!-- formula -->
+                 <div class="formula">
+                <p>S<sub>(&deg;F)</sub> = (S<sub>(&deg;F)</sub> x 9/5) + 32</p>
+                 </div>
+                 <div>
+                    atau
+                 </div>
+
+                 <div class="formula">
+                    <p>S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1,8) + 32</p>
+                 </div>
+            </article>
+        </section>
+    </main>
 
     <!-- footer content-->
-     <footer></footer>
+     <footer>
+        <p>&copy;2025 Nurul. All rights reserved.</p>
+     </footer>
 
 </body>
 </html>
